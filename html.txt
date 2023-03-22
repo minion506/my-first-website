@@ -1,0 +1,39 @@
+<html>
+1) 태그
+<strong></strong>
+-> 문자를 강조하는데 사용하는 태그
+<u></u>
+-> 밑줄치는데 사용되는 태그
+<h1></h1>
+-> 제목을 나타내는 태그 중 가장 큰 크기의 태그
+<br>
+-> 줄 바꿈 태그
+<p></p>
+-> 단락을 바꾸는 태그
+<p style = "margin-top:45px;">
+=> p 태그의 위쪽에 45px 만큼의 여백을 추가하는 것
+<li></li>
+-> 목차, list를 표현하는 태그
+<ul></ul>
+-> inordered list -> 정렬되지 않은 리스트
+<ol></ol>
+-> ordered list -> 정렬된 리스트 
+<title></title>
+-> 본 html의 페이지 이름을 만드는 태그
+
+
+2) 속성(tag의 심화과정)
+<img>
+-> 이미지를 추가시키기 위한 태그
+-> <img src = "~~~">
+	-> src는 속성을 의미한다
+ex) <img src="https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7648.png">
+
+<meta>
+-> 해당 문서의 정보를 제공하는 태그
+-> 다양한 속성을 정의할 수 있다.
+-> 속성 종류
+	charset: 문서의 문자 인코딩 방식을 설정합니다.
+	name: 해당 <meta> 태그가 어떤 정보를 제공하는지를 지정합니다. 
+	content: 해당 <meta> 태그가 지정한 정보의 내용(content)을 지정합니다.
+ex) <meta charset="UTF-8"> -> 해당 페이지를 열때는 "UTF-8"형식으로 해당 페이지를 열라는 의미
